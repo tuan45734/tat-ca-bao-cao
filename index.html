@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tất cả báo cáo - Trung tâm dữ liệu</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <style>
         * {
             margin: 0;
@@ -112,8 +113,13 @@
         .icon {
             font-size: 3.6rem;
             line-height: 1;
+            color: #f39c12;
             filter: drop-shadow(2px 6px 8px rgba(0, 60, 80, 0.2));
             transition: transform 0.2s;
+        }
+
+        h1 i {
+            color: #f39c12;
         }
 
         .card-btn:hover .icon {
@@ -167,64 +173,64 @@
 <body>
     <div class="dashboard">
         <h1>
-            📋 Tất cả báo cáo
+            <i class="fa-solid fa-clipboard-list"></i> Tất cả báo cáo
         </h1>
       
 
         <div class="grid-buttons">
             <!-- 1. Kinh doanh - Icon biểu đồ tăng trưởng + bảng điều khiển -->
             <a href="https://tuan45734.github.io/bao-cao-kinh-doanh2/" target="_blank" rel="noopener noreferrer" class="card-btn">
-                <div class="icon">📊💼</div>
+                <div class="icon"><i class="fa-solid fa-chart-simple"></i></div>
                 <div class="label">Kinh doanh</div>
                 <div class="link-hint" title="https://tuan45734.github.io/bao-cao-kinh-doanh2/">Báo cáo KPI & doanh thu</div>
             </a>
             
             <!-- 2. Sell out - Icon máy tính tiền + biểu đồ bán lẻ -->
             <a href="https://tuan45734.github.io/bao-cao-sell-out/" target="_blank" rel="noopener noreferrer" class="card-btn">
-                <div class="icon">🛒📈</div>
+                <div class="icon"><i class="fa-solid fa-store"></i></div>
                 <div class="label">Sell out</div>
                 <div class="link-hint" title="https://tuan45734.github.io/bao-cao-sell-out/">Báo cáo KPI sell-out</div>
             </a>
 
             <!-- 3. Sell in - Icon nhập kho, vận chuyển -->
             <a href="https://tuan45734.github.io/bao-cao-sell-in/" target="_blank" rel="noopener noreferrer" class="card-btn">
-                <div class="icon">📦🚛</div>
+                <div class="icon"><i class="fa-solid fa-truck-fast"></i></div>
                 <div class="label">Sell in</div>
                 <div class="link-hint" title="https://tuan45734.github.io/bao-cao-sell-in/">Báo cáo Sell in</div>
             </a>
             
             <!-- 4. Tồn Kho - Icon kho hàng, thẻ kho -->
             <a href="https://tuan45734.github.io/bao-cao-ton-kho/" target="_blank" rel="noopener noreferrer" class="card-btn">
-                <div class="icon">🏬📦</div>
+                <div class="icon"><i class="fa-solid fa-warehouse"></i></div>
                 <div class="label">Tồn Kho</div>
                 <div class="link-hint" title="https://tuan45734.github.io/bao-cao-ton-kho/">Báo cáo Tồn Kho</div>
             </a>
             
             <!-- 5. Sản phẩm - Icon danh mục, nhãn hàng -->
             <a href="https://tuan45734.github.io/bao-cao-san-pham/" target="_blank" rel="noopener noreferrer" class="card-btn">
-                <div class="icon">🏷️📑</div>
+                <div class="icon"><i class="fa-solid fa-tags"></i></div>
                 <div class="label">Sản phẩm</div>
                 <div class="link-hint" title="https://tuan45734.github.io/bao-cao-san-pham/">Báo cáo Sản phẩm</div>
             </a>
             
             <!-- 6. Công cụ dụng cụ - Icon bộ dụng cụ, bảo hộ lao động -->
             <a href="https://tuan45734.github.io/bao-cao-CCDC/" target="_blank" rel="noopener noreferrer" class="card-btn">
-                <div class="icon">🔧🧰</div>
+                <div class="icon"><i class="fa-solid fa-toolbox"></i></div>
                 <div class="label">Công cụ dụng cụ</div>
                 <div class="link-hint" title="https://tuan45734.github.io/bao-cao-CCDC/">Báo cáo CCDC</div>
             </a>
             <a href="https://tuan45734.github.io/bao_cao_lam_viec/" target="_blank" rel="noopener noreferrer" class="card-btn">
-                <div class="icon">💼🧑 </div>
+                <div class="icon"><i class="fa-solid fa-clipboard-check"></i></div>
                 <div class="label">Chấm công, viếng thăm</div>
                 <div class="link-hint" title="https://tuan45734.github.io/bao_cao_lam_viec/">Báo cáo làm việc</div>
             </a>
             <a href="https://tuan45734.github.io/bao-cao-khach-hang/" target="_blank" rel="noopener noreferrer" class="card-btn">
-                <div class="icon"> 🧑📦 </div>
+                <div class="icon"><i class="fa-solid fa-users"></i></div>
                 <div class="label">Khách hàng</div>
                 <div class="link-hint" title="https://tuan45734.github.io/bao-cao-khach-hang/">Báo cáo Khách hàng</div>
             </a>
             <a href="https://thinh2k04.github.io/quan_ly_khach_hang/" target="_blank" rel="noopener noreferrer" class="card-btn">
-                <div class="icon">🧑 🏡 </div>
+                <div class="icon"><i class="fa-solid fa-map-location-dot"></i></div>
                 <div class="label">Thực địa</div>
                 <div class="link-hint" title="https://thinh2k04.github.io/quan_ly_khach_hang/">Báo cáo Thực địa</div>
             </a>
